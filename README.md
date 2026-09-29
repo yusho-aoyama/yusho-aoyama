@@ -90,7 +90,7 @@ Tech: `Next.js` `React` `JavaScript` `Tailwind CSS` `Cloudflare Pages` など
 - GitHub / Cloudflare Pagesによる自動ビルド・デプロイ
 
 ````
-**Note**: 現在は連携していたTAFE提供APIが利用できないため、API通信を必要とする機能は正常に動作しません。
+Note: 現在は連携していたTAFE提供APIが利用できないため、API通信を必要とする機能は正常に動作しません。
 ````
 
 [View Repository](https://github.com/yusho-aoyama/nextjs-app-dev)
