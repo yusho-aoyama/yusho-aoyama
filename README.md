@@ -41,7 +41,7 @@ PHP / Laravelを中心に、API設計・データベース・認証 / 認可・�
 Laravelで開発した、支出・予算・カテゴリー・ユーザーを管理するRESTful APIです。
 要件分析から設計・実装・テスト・デプロイまで取り組み、レビューをもとに個人でリファクタリングを行いました。
 
-**Tech**: `PHP` `Laravel`` MariaDB` `SQLite` `Sanctum` `Pest` `Scramble`
+**Tech**: `PHP` `Laravel` `MariaDB` `SQLite` `Sanctum` `Pest` `Scramble`　など
 
 **主な実装**
 - Admin / Staff / Clientのロールベースアクセス制御
@@ -60,7 +60,7 @@ Laravelで開発した、支出・予算・カテゴリー・ユーザーを管�
 LaravelのMVCアーキテクチャを学ぶために開発した、ジョークの投稿・管理・評価ができるWebアプリケーションです。
 認証、CRUD、データベースリレーション、ロール・権限管理など、Laravelを使用したWebアプリケーション開発の基礎を実装しました。
 
-Tech: `PHP``Laravel` `Blade` `Livewire` `Tailwind CSS` `MySQL`
+Tech: `PHP` `Laravel` `Blade` `Livewire` `Tailwind CSS` `MySQL`　など
 
 **主な実装**
 - ユーザー登録・ログイン・ログアウト
@@ -79,7 +79,7 @@ Next.js 15（App Router）を使用して開発した、プロジェクト・タ
 
 TAFEから提供されたLaravel REST APIと連携し、API仕様の確認からUI/UX設計、CRUD実装、テスト、デプロイまで取り組みました。
 
-Tech: `Next.js` `React` `JavaScript` `Tailwind CSS` `Cloudflare Pages`
+Tech: `Next.js` `React` `JavaScript` `Tailwind CSS` `Cloudflare Pages` など
 
 **主な実装**
 - Projects / Tasks / MilestonesのCRUD
