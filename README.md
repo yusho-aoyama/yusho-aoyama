@@ -1,18 +1,16 @@
-# Hi, I'm Yusho 👋
+# Hi, I'm Yusho Aoyama 👋
+### Backend Engineerを目指して、Webアプリケーション・REST APIを開発しています!
+PHP / Laravelを中心に、API設計・データベース・認証 / 認可・テストなど、
+保守性を意識したバックエンド開発について学んでいます。
 
-I'm a backend developer.
-I enjoy building REST APIs and learning how backend systems are designed and maintained.
-
-
-## About Me
-
-- 🎓 Studied Information Technology in Australia
-- 💻 Focused on backend development with PHP and Laravel
-- 🔧 Interested in REST API design, databases, and maintainable backend architecture
-- 🗾 Preparing for a backend engineering career in Japan
+## 👨‍💻 About Me
+- 🎓 オーストラリアのTAFEで Information Technology（Back End Web Development） を学習
+- 💻 PHP / Laravel を中心にWebアプリケーション・REST APIを開発
+- 🤝 チーム開発で要件確認から設計・実装・テスト・デプロイまで経験
+- 🗾 日本でバックエンドエンジニアとしてのキャリアを目指しています
 
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 **Backend**
 - PHP
@@ -36,41 +34,64 @@ I enjoy building REST APIs and learning how backend systems are designed and mai
 - Postman
 
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### Smart Expense API
-A RESTful API built with Laravel for managing personal expenses, budgets, categories, and users.
+### 💰 Smart Expense API
 
-- PHP / Laravel / MariaDB
-- Laravel Sanctum authentication
-- Role-based authorization with Policies
-- Form Request validation and API Resources
-- Feature testing with Pest
-- Monetary values stored as integer cents
+Laravelで開発した、支出・予算・カテゴリー・ユーザーを管理するRESTful APIです。
+要件分析から設計・実装・テスト・デプロイまで取り組み、レビューをもとに個人でリファクタリングを行いました。
+
+**Tech**: `PHP` `Laravel`` MariaDB` `SQLite` `Sanctum` `Pest` `Scramble`
+
+**主な実装**
+- Admin / Staff / Clientのロールベースアクセス制御
+- Laravel Sanctumによるトークンベース認証
+- Users / Categories / Expenses / BudgetsのCRUD
+- Laravel Policyによる認可処理
+- Form Request / API Resourceによる責務分離
+- PestによるFeature Test
+- 金額データの整数（cents）管理
+- Rate Limiting
+- ScrambleによるAPIドキュメント
 
 [View Repository](https://github.com/yusho-aoyama/smart-expense-categorizer-api)
 
-### Project Management App
-A frontend application built with Next.js that integrates with a REST API to manage users and projects.
+### 😄 Joke App
+LaravelのMVCアーキテクチャを学ぶために開発した、ジョークの投稿・管理・評価ができるWebアプリケーションです。
+認証、CRUD、データベースリレーション、ロール・権限管理など、Laravelを使用したWebアプリケーション開発の基礎を実装しました。
 
-- Next.js / React / Tailwind CSS
-- REST API integration
-- Project and user management
-- Responsive UI
-- Reusable components
-- Loading and error handling
+Tech: `PHP``Laravel` `Blade` `Livewire` `Tailwind CSS` `MySQL`
 
-[View Repository](https://github.com/yusho-aoyama/at3-web-app-using-frameworks-yusho-aoyama)
+**主な実装**
+- ユーザー登録・ログイン・ログアウト
+- Jokes / CategoriesのCRUD
+- Users / Jokes / Votes / Categoriesのリレーション
+- Admin / Staff / Client Userのロール・権限管理
+- LivewireによるLike / Dislike機能
+- Bladeを使用した画面実装
+- セッションを利用したログイン状態の管理
 
+[View Repository](https://github.com/yusho-aoyama/ya-saas-jokes-app)
 
-## Currently Learning
+### 📋 Project Management App
 
-- Backend application architecture
-- HTTP and web fundamentals
-- Database design and SQL
-- Testing and maintainable application design
+Next.js 15（App Router）を使用して開発した、プロジェクト・タスク・マイルストーンを管理するフロントエンドWebアプリケーションです。
 
-## Contact
+TAFEから提供されたLaravel REST APIと連携し、API仕様の確認からUI/UX設計、CRUD実装、テスト、デプロイまで取り組みました。
 
-- Portfolio: ...
-- LinkedIn: ...
+Tech: `Next.js` `React` `JavaScript` `Tailwind CSS` `Cloudflare Pages`
+
+**主な実装**
+- Projects / Tasks / MilestonesのCRUD
+- REST APIとの連携
+- 再利用可能なReactコンポーネント
+- Loading / Error / Validationへの対応
+- レスポンシブUI
+- GitHub / Cloudflare Pagesによる自動ビルド・デプロイ
+
+````
+**Note**: 現在は連携していたTAFE提供APIが利用できないため、API通信を必要とする機能は正常に動作しません。
+````
+
+[View Repository](https://github.com/yusho-aoyama/nextjs-app-dev)
+
